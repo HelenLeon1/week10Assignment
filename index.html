@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songs</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container text-center bg-dark">
+
+    <h1 class="my-5 text-white">Song Selector</h1>
+    <img class="img-fluid" src="https://images.unsplash.com/photo-1487537023671-8dce1a785863?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="music and coffee"/>
+    <p class="container text-white my-4">This easy to navigate website allows you to create playlists of some of your 
+        favorite songs in just minutes. All you need to do is enter the name of your playlist and add the songs and you are done!
+        If you would like to have a place to save all of your music preferences, this is the place for you. 
+    </p>
+
+    <br>
+    <!--Input Box-->
+    <h3 class=" text-white text-decoration-underline">Create Your Playlists</h3>
+    <div class="card bg-dark-subtle">
+        <div class="card-body">
+            <div class="row pb-3">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="playlist-name">Playlist Name</label>
+                        <input type="text" class="form-control" id="playlist-name">
+                    </div>
+                </div>
+            <div class="text-center d-grid gap-2 d-md-block">
+                <button id="enter-button" class="btn btn-primary">Enter</button>
+            </div>
+        </div>
+    </div><br>
+
+    <!--Song List-->
+    <div id="playlist"> 
+
+    </div>
+
+    
+
+    <script src="index.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
